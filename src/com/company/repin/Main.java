@@ -1,8 +1,8 @@
 package com.company.repin;
 
-import com.company.repin.Classes.ImmutableClass;
-import com.company.repin.Classes.MyOuterClass;
-import com.company.repin.Sorting.*;
+import com.company.repin.classes.ImmutableClass;
+import com.company.repin.classes.MyOuterClass;
+import com.company.repin.sorting.*;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -40,5 +40,14 @@ public class Main {
         System.out.println(Arrays.toString(BucketSort.sortBucket(arr)));
         System.out.println(Arrays.toString(BubbleSort.bubbleSort(arr)));
 
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                for (int i = 0; i < 3; i++) {
+                    System.out.print(i+"; ");
+                }
+            }
+        });
+        thread.start();
     }
 }

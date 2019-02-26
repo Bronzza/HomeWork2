@@ -1,4 +1,4 @@
-package com.company.repin.Classes;
+package com.company.repin.classes;
 
 import java.util.Random;
 

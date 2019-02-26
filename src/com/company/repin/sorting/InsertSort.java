@@ -1,4 +1,4 @@
-package com.company.repin.Sorting;
+package com.company.repin.sorting;
 
 public class InsertSort {
     public static int[] insertSort(int[] array) {

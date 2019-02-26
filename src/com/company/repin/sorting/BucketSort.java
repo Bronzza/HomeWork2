@@ -1,4 +1,4 @@
-package com.company.repin.Sorting;
+package com.company.repin.sorting;
 
 public class BucketSort {
     public static int[] sortBucket(int[] array) {

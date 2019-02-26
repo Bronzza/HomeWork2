@@ -1,4 +1,4 @@
-package com.company.repin.Sorting;
+package com.company.repin.sorting;
 
 public class RadixSort {
     public static int[] radixSort(int arr[]) {

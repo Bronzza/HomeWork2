@@ -1,9 +1,6 @@
-package com.company.repin.Classes;
-
-import com.company.repin.Car;
+package com.company.repin.classes;
 
 public final class ImmutableClass {
-
     private final String name;
     private final Integer integer;
 

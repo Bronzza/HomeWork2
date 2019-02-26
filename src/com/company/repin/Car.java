@@ -17,6 +17,18 @@ public class Car {
         this.maxSpeed = maxSpeed;
     }
 
+    public String getModel() {
+        return model;
+    }
+
+    public Engine getEngine() {
+        return engine;
+    }
+
+    public Integer getMaxSpeed() {
+        return maxSpeed;
+    }
+
     @Override
     public String toString() {
         return "Car{" +

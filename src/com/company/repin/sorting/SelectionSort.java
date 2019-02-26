@@ -1,6 +1,6 @@
-package com.company.repin.Sorting;
+package com.company.repin.sorting;
 
-import static com.company.repin.Sorting.UtilClassSort.swap;
+import static com.company.repin.sorting.UtilClassSort.swap;
 
 public class SelectionSort {
 

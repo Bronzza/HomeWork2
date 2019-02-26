@@ -1,4 +1,4 @@
-package com.company.repin.Sorting;
+package com.company.repin.sorting;
 
 public class UtilClassSort {
     public static void swap(int[] a, int i, int j) {
